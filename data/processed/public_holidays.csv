@@ -1,0 +1,67 @@
+Date,holiday_name,is_holiday
+2020-01-01,"[{'language': 'EN', 'text': ""New Year's Day""}]",1
+2020-04-10,"[{'language': 'EN', 'text': 'Good Friday'}]",1
+2020-04-13,"[{'language': 'EN', 'text': 'Easter Monday'}]",1
+2020-05-01,"[{'language': 'EN', 'text': 'Labour Day'}]",1
+2020-05-21,"[{'language': 'EN', 'text': 'Ascension Day'}]",1
+2020-06-01,"[{'language': 'EN', 'text': 'Pentecost Monday'}]",1
+2020-06-11,"[{'language': 'EN', 'text': 'Corpus Christi'}]",1
+2020-10-03,"[{'language': 'EN', 'text': 'Day of German Unity'}]",1
+2020-11-01,"[{'language': 'EN', 'text': ""All Saints' Day""}]",1
+2020-12-25,"[{'language': 'EN', 'text': 'Christmas Day'}]",1
+2020-12-26,"[{'language': 'EN', 'text': '2nd Day of Christmas'}]",1
+2021-01-01,"[{'language': 'EN', 'text': ""New Year's Day""}]",1
+2021-04-02,"[{'language': 'EN', 'text': 'Good Friday'}]",1
+2021-04-05,"[{'language': 'EN', 'text': 'Easter Monday'}]",1
+2021-05-01,"[{'language': 'EN', 'text': 'Labour Day'}]",1
+2021-05-13,"[{'language': 'EN', 'text': 'Ascension Day'}]",1
+2021-05-24,"[{'language': 'EN', 'text': 'Pentecost Monday'}]",1
+2021-06-03,"[{'language': 'EN', 'text': 'Corpus Christi'}]",1
+2021-10-03,"[{'language': 'EN', 'text': 'Day of German Unity'}]",1
+2021-11-01,"[{'language': 'EN', 'text': ""All Saints' Day""}]",1
+2021-12-25,"[{'language': 'EN', 'text': 'Christmas Day'}]",1
+2021-12-26,"[{'language': 'EN', 'text': '2nd Day of Christmas'}]",1
+2022-01-01,"[{'language': 'EN', 'text': ""New Year's Day""}]",1
+2022-04-15,"[{'language': 'EN', 'text': 'Good Friday'}]",1
+2022-04-18,"[{'language': 'EN', 'text': 'Easter Monday'}]",1
+2022-05-01,"[{'language': 'EN', 'text': 'Labour Day'}]",1
+2022-05-26,"[{'language': 'EN', 'text': 'Ascension Day'}]",1
+2022-06-06,"[{'language': 'EN', 'text': 'Pentecost Monday'}]",1
+2022-06-16,"[{'language': 'EN', 'text': 'Corpus Christi'}]",1
+2022-10-03,"[{'language': 'EN', 'text': 'Day of German Unity'}]",1
+2022-11-01,"[{'language': 'EN', 'text': ""All Saints' Day""}]",1
+2022-12-25,"[{'language': 'EN', 'text': 'Christmas Day'}]",1
+2022-12-26,"[{'language': 'EN', 'text': '2nd Day of Christmas'}]",1
+2023-01-01,"[{'language': 'EN', 'text': ""New Year's Day""}]",1
+2023-04-07,"[{'language': 'EN', 'text': 'Good Friday'}]",1
+2023-04-10,"[{'language': 'EN', 'text': 'Easter Monday'}]",1
+2023-05-01,"[{'language': 'EN', 'text': 'Labour Day'}]",1
+2023-05-18,"[{'language': 'EN', 'text': 'Ascension Day'}]",1
+2023-05-29,"[{'language': 'EN', 'text': 'Pentecost Monday'}]",1
+2023-06-08,"[{'language': 'EN', 'text': 'Corpus Christi'}]",1
+2023-10-03,"[{'language': 'EN', 'text': 'Day of German Unity'}]",1
+2023-11-01,"[{'language': 'EN', 'text': ""All Saints' Day""}]",1
+2023-12-25,"[{'language': 'EN', 'text': 'Christmas Day'}]",1
+2023-12-26,"[{'language': 'EN', 'text': '2nd Day of Christmas'}]",1
+2024-01-01,"[{'language': 'EN', 'text': ""New Year's Day""}]",1
+2024-03-29,"[{'language': 'EN', 'text': 'Good Friday'}]",1
+2024-04-01,"[{'language': 'EN', 'text': 'Easter Monday'}]",1
+2024-05-01,"[{'language': 'EN', 'text': 'Labour Day'}]",1
+2024-05-09,"[{'language': 'EN', 'text': 'Ascension Day'}]",1
+2024-05-20,"[{'language': 'EN', 'text': 'Pentecost Monday'}]",1
+2024-05-30,"[{'language': 'EN', 'text': 'Corpus Christi'}]",1
+2024-10-03,"[{'language': 'EN', 'text': 'Day of German Unity'}]",1
+2024-11-01,"[{'language': 'EN', 'text': ""All Saints' Day""}]",1
+2024-12-25,"[{'language': 'EN', 'text': 'Christmas Day'}]",1
+2024-12-26,"[{'language': 'EN', 'text': '2nd Day of Christmas'}]",1
+2025-01-01,"[{'language': 'EN', 'text': ""New Year's Day""}]",1
+2025-04-18,"[{'language': 'EN', 'text': 'Good Friday'}]",1
+2025-04-21,"[{'language': 'EN', 'text': 'Easter Monday'}]",1
+2025-05-01,"[{'language': 'EN', 'text': 'Labour Day'}]",1
+2025-05-29,"[{'language': 'EN', 'text': 'Ascension Day'}]",1
+2025-06-09,"[{'language': 'EN', 'text': 'Pentecost Monday'}]",1
+2025-06-19,"[{'language': 'EN', 'text': 'Corpus Christi'}]",1
+2025-10-03,"[{'language': 'EN', 'text': 'Day of German Unity'}]",1
+2025-11-01,"[{'language': 'EN', 'text': ""All Saints' Day""}]",1
+2025-12-25,"[{'language': 'EN', 'text': 'Christmas Day'}]",1
+2025-12-26,"[{'language': 'EN', 'text': '2nd Day of Christmas'}]",1

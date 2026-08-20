@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# PyCharm / JetBrains
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Old / backup files
+*__.py*
+*__.md*
+
+# Data
+data/raw/ballengewichte_raw_studenten.csv
+data/raw/ballengewichte_studenten.csv
+data/raw/eingangsbandwaage_raw_studenten.csv
+data/raw/eingangsbandwaage_studenten.csv
+data/processed/clean_dataset.csv
+
+# Folders
+notebooks/
+outputs/
+tests/
+
