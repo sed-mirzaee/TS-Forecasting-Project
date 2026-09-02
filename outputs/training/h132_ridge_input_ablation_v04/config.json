@@ -1,0 +1,1253 @@
+{
+    "run_name": "h132_ridge_input_ablation_v04",
+    "initial_ratio": 0.789,
+    "horizons": [
+        132
+    ],
+    "materials": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+    ],
+    "models": {
+        "ridge": [
+            {
+                "name": "ridge_h132_m1_roll22_alpha_0.0001_schoolholiday_input_lag132",
+                "materials": [
+                    "1"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [
+                        132
+                    ],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h132_m1_roll22_alpha_0.0001_schoolholiday_input_mean5_lag132",
+                "materials": [
+                    "1"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m1_roll22_alpha_0.0001_schoolholiday_input_mean132_lag132",
+                "materials": [
+                    "1"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            132
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m2_roll66_alpha_0.0001_input_lag132",
+                "materials": [
+                    "2"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [
+                        132
+                    ],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h132_m2_roll66_alpha_0.0001_input_mean5_lag132",
+                "materials": [
+                    "2"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m2_roll66_alpha_0.0001_input_mean132_lag132",
+                "materials": [
+                    "2"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            132
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m3_roll132_alpha_0.0001_dow_input_lag132",
+                "materials": [
+                    "3"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        132
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [
+                        132
+                    ],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h132_m3_roll132_alpha_0.0001_dow_input_mean5_lag132",
+                "materials": [
+                    "3"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        132
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m3_roll132_alpha_0.0001_dow_input_mean132_lag132",
+                "materials": [
+                    "3"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        132
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            132
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m4_roll132_alpha_0.0001_schoolholiday_input_lag132",
+                "materials": [
+                    "4"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        132
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [
+                        132
+                    ],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h132_m4_roll132_alpha_0.0001_schoolholiday_input_mean5_lag132",
+                "materials": [
+                    "4"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        132
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m4_roll132_alpha_0.0001_schoolholiday_input_mean132_lag132",
+                "materials": [
+                    "4"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        132
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            132
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m5_roll22_alpha_0.0001_dow_input_lag132",
+                "materials": [
+                    "5"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [
+                        132
+                    ],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h132_m5_roll22_alpha_0.0001_dow_input_mean5_lag132",
+                "materials": [
+                    "5"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m5_roll22_alpha_0.0001_dow_input_mean132_lag132",
+                "materials": [
+                    "5"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            132
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m6_roll22_alpha_0.0001_input_lag132",
+                "materials": [
+                    "6"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [
+                        132
+                    ],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h132_m6_roll22_alpha_0.0001_input_mean5_lag132",
+                "materials": [
+                    "6"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m6_roll22_alpha_0.0001_input_mean132_lag132",
+                "materials": [
+                    "6"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            132
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m7_roll132_alpha_0.0001_input_lag132",
+                "materials": [
+                    "7"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        132
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [
+                        132
+                    ],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h132_m7_roll132_alpha_0.0001_input_mean5_lag132",
+                "materials": [
+                    "7"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        132
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m7_roll132_alpha_0.0001_input_mean132_lag132",
+                "materials": [
+                    "7"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        132
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            132
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m8_roll66_alpha_0.01_schoolholiday_input_lag132",
+                "materials": [
+                    "8"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [
+                        132
+                    ],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h132_m8_roll66_alpha_0.01_schoolholiday_input_mean5_lag132",
+                "materials": [
+                    "8"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m8_roll66_alpha_0.01_schoolholiday_input_mean132_lag132",
+                "materials": [
+                    "8"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            132
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m9_roll22_alpha_0.0001_schoolholiday_input_lag132",
+                "materials": [
+                    "9"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [
+                        132
+                    ],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h132_m9_roll22_alpha_0.0001_schoolholiday_input_mean5_lag132",
+                "materials": [
+                    "9"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m9_roll22_alpha_0.0001_schoolholiday_input_mean132_lag132",
+                "materials": [
+                    "9"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            132
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m10_no_roll_alpha_0.01_holiday_input_lag132",
+                "materials": [
+                    "10"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [
+                        132
+                    ],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h132_m10_no_roll_alpha_0.01_holiday_input_mean5_lag132",
+                "materials": [
+                    "10"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m10_no_roll_alpha_0.01_holiday_input_mean132_lag132",
+                "materials": [
+                    "10"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            132
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m11_roll66_alpha_0.0001_holiday_input_lag132",
+                "materials": [
+                    "11"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [
+                        132
+                    ],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h132_m11_roll66_alpha_0.0001_holiday_input_mean5_lag132",
+                "materials": [
+                    "11"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m11_roll66_alpha_0.0001_holiday_input_mean132_lag132",
+                "materials": [
+                    "11"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            132
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m12_roll132_alpha_0.0001_holiday_input_lag132",
+                "materials": [
+                    "12"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        132
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [
+                        132
+                    ],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h132_m12_roll132_alpha_0.0001_holiday_input_mean5_lag132",
+                "materials": [
+                    "12"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        132
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m12_roll132_alpha_0.0001_holiday_input_mean132_lag132",
+                "materials": [
+                    "12"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [
+                        132
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            132
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m13_no_roll_alpha_0.01_schoolholiday_input_lag132",
+                "materials": [
+                    "13"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [
+                        132
+                    ],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h132_m13_no_roll_alpha_0.01_schoolholiday_input_mean5_lag132",
+                "materials": [
+                    "13"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "ridge_h132_m13_no_roll_alpha_0.01_schoolholiday_input_mean132_lag132",
+                "materials": [
+                    "13"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        5,
+                        10,
+                        22,
+                        66,
+                        132
+                    ],
+                    "rolling_windows": [],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": [
+                        [
+                            132,
+                            132
+                        ]
+                    ]
+                }
+            }
+        ]
+    }
+}

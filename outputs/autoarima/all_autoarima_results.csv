@@ -1,0 +1,40 @@
+material,imputation_method,arima_order,sarima_order,sarima_seasonal_order,arima_aicc,sarima_aicc,delta_aicc,aicc_result,seasonal_result
+1,linear,"(1, 1, 2)","(1, 1, 2)","(1, 0, 0, 5)",-3842.27,-3844.78,-2.51,SARIMA lower,Seasonal terms selected
+1,pchip,"(1, 1, 2)","(1, 1, 2)","(1, 0, 0, 5)",-3836.025,-3836.968,-0.943,SARIMA lower,Seasonal terms selected
+1,spline,"(1, 1, 2)","(1, 1, 2)","(1, 0, 0, 5)",-3857.196,-3858.851,-1.655,SARIMA lower,Seasonal terms selected
+2,linear,"(1, 1, 1)","(1, 1, 1)","(0, 0, 0, 5)",-4426.001,-4426.001,0.0,Tie,No seasonal terms
+2,pchip,"(1, 1, 1)","(1, 1, 1)","(0, 0, 0, 5)",-4425.005,-4425.005,0.0,Tie,No seasonal terms
+2,spline,"(1, 1, 1)","(1, 1, 1)","(0, 0, 0, 5)",-4432.271,-4432.271,0.0,Tie,No seasonal terms
+3,linear,"(1, 1, 1)","(1, 1, 1)","(0, 0, 2, 5)",-4494.561,-4495.978,-1.417,SARIMA lower,Seasonal terms selected
+3,pchip,"(1, 1, 1)","(1, 1, 1)","(0, 0, 2, 5)",-4479.282,-4480.862,-1.58,SARIMA lower,Seasonal terms selected
+3,spline,"(1, 1, 1)","(1, 1, 1)","(0, 0, 2, 5)",-4529.137,-4530.517,-1.38,SARIMA lower,Seasonal terms selected
+4,linear,"(0, 1, 2)","(0, 1, 2)","(0, 0, 0, 5)",-3772.007,-3772.007,0.0,Tie,No seasonal terms
+4,pchip,"(0, 1, 2)","(0, 1, 2)","(0, 0, 0, 5)",-3771.119,-3771.119,0.0,Tie,No seasonal terms
+4,spline,"(0, 1, 1)","(0, 1, 1)","(0, 0, 0, 5)",-3808.904,-3808.904,0.0,Tie,No seasonal terms
+5,linear,"(1, 0, 2)","(4, 0, 0)","(0, 0, 0, 5)",-4942.74,-4907.391,35.35,ARIMA lower,No seasonal terms
+5,pchip,"(1, 0, 2)","(0, 0, 2)","(1, 0, 0, 5)",-4940.97,-4836.352,104.618,ARIMA lower,Seasonal terms selected
+5,spline,"(2, 0, 2)","(1, 0, 0)","(1, 0, 0, 5)",-4948.905,-4853.315,95.589,ARIMA lower,Seasonal terms selected
+6,linear,"(0, 1, 1)","(0, 1, 1)","(0, 0, 0, 5)",-6105.423,-6105.423,0.0,Tie,No seasonal terms
+6,pchip,"(0, 1, 1)","(0, 1, 1)","(0, 0, 0, 5)",-6094.144,-6094.144,0.0,Tie,No seasonal terms
+6,spline,"(2, 1, 1)","(0, 1, 1)","(2, 0, 0, 5)",-6152.064,-6150.469,1.595,ARIMA lower,Seasonal terms selected
+7,linear,"(0, 1, 2)","(0, 1, 1)","(1, 0, 0, 5)",-7430.791,-7439.28,-8.489,SARIMA lower,Seasonal terms selected
+7,pchip,"(0, 1, 1)","(0, 1, 1)","(1, 0, 0, 5)",-7435.07,-7436.118,-1.048,SARIMA lower,Seasonal terms selected
+7,spline,"(1, 1, 2)","(1, 1, 2)","(0, 0, 0, 5)",-7458.368,-7458.368,0.0,Tie,No seasonal terms
+8,linear,"(1, 1, 1)","(1, 1, 1)","(0, 0, 0, 5)",-6206.354,-6206.354,0.0,Tie,No seasonal terms
+8,pchip,"(1, 1, 1)","(1, 1, 3)","(0, 0, 0, 5)",-6205.341,-6206.554,-1.214,SARIMA lower,No seasonal terms
+8,spline,"(0, 1, 1)","(0, 1, 1)","(0, 0, 1, 5)",-6216.733,-6217.242,-0.509,SARIMA lower,Seasonal terms selected
+9,linear,"(3, 1, 1)","(3, 1, 1)","(0, 0, 0, 5)",-5830.952,-5830.952,0.0,Tie,No seasonal terms
+9,pchip,"(2, 1, 1)","(0, 1, 1)","(0, 0, 0, 5)",-5828.825,-5821.445,7.38,ARIMA lower,No seasonal terms
+9,spline,"(0, 1, 3)","(0, 1, 3)","(0, 0, 0, 5)",-5834.714,-5834.714,0.0,Tie,No seasonal terms
+10,linear,"(0, 1, 2)","(0, 1, 2)","(0, 0, 0, 5)",-4245.561,-4245.561,0.0,Tie,No seasonal terms
+10,pchip,"(0, 1, 2)","(0, 1, 2)","(0, 0, 2, 5)",-4241.258,-4241.387,-0.129,SARIMA lower,Seasonal terms selected
+10,spline,"(0, 1, 2)","(0, 1, 2)","(0, 0, 0, 5)",-4258.77,-4258.77,0.0,Tie,No seasonal terms
+11,linear,"(1, 1, 1)","(1, 1, 2)","(0, 0, 1, 5)",-4965.865,-4972.129,-6.264,SARIMA lower,Seasonal terms selected
+11,pchip,"(1, 1, 1)","(1, 1, 2)","(1, 0, 0, 5)",-4964.025,-4970.147,-6.121,SARIMA lower,Seasonal terms selected
+11,spline,"(1, 1, 1)","(1, 1, 1)","(0, 0, 1, 5)",-4968.185,-4971.144,-2.958,SARIMA lower,Seasonal terms selected
+12,linear,"(5, 0, 0)","(4, 0, 0)","(0, 0, 0, 5)",-7089.26,-7087.993,1.267,ARIMA lower,No seasonal terms
+12,pchip,"(5, 0, 0)","(4, 0, 0)","(0, 0, 0, 5)",-7082.121,-7081.274,0.847,ARIMA lower,No seasonal terms
+12,spline,"(5, 0, 0)","(2, 0, 1)","(0, 0, 0, 5)",-7113.162,-7119.655,-6.493,SARIMA lower,No seasonal terms
+13,linear,"(0, 1, 3)","(4, 1, 2)","(1, 0, 1, 5)",-2466.073,-2477.266,-11.193,SARIMA lower,Seasonal terms selected
+13,pchip,"(0, 1, 3)","(1, 1, 3)","(0, 0, 2, 5)",-2462.339,-2467.899,-5.56,SARIMA lower,Seasonal terms selected
+13,spline,"(4, 1, 1)","(3, 1, 2)","(1, 0, 1, 5)",-2491.09,-2495.423,-4.333,SARIMA lower,Seasonal terms selected

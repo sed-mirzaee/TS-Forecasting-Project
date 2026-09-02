@@ -1,0 +1,116 @@
+{
+    "run_name": "h10_ridge_2w_lag_roll_dow_v09",
+    "initial_ratio": 0.789,
+    "horizons": [
+        10
+    ],
+    "materials": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+    ],
+    "models": {
+        "naive": [
+            {
+                "name": "naive",
+                "materials": "all",
+                "params": {}
+            }
+        ],
+        "moving_average": [
+            {
+                "name": "moving_average",
+                "materials": "all",
+                "params": {}
+            }
+        ],
+        "ridge": [
+            {
+                "name": "ridge_lags_1_5_10_alpha_1",
+                "materials": "all",
+                "params": {
+                    "lags": [
+                        1,
+                        5,
+                        10
+                    ],
+                    "alpha": 1.0
+                }
+            },
+            {
+                "name": "ridge_lags_1_2_5_alpha_1",
+                "materials": "all",
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        5
+                    ],
+                    "alpha": 1.0
+                }
+            },
+            {
+                "name": "ridge_lags_1_2_3_4_5_10_alpha_1",
+                "materials": "all",
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10
+                    ],
+                    "alpha": 1.0
+                }
+            },
+            {
+                "name": "ridge_lags_1_2_3_4_5_10_rollmean10_alpha_1",
+                "materials": "all",
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10
+                    ],
+                    "alpha": 1.0,
+                    "rolling_windows": [
+                        10
+                    ]
+                }
+            },
+            {
+                "name": "ridge_lags_1_2_3_4_5_10_rollmean10_dow_alpha_1",
+                "materials": "all",
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10
+                    ],
+                    "alpha": 1.0,
+                    "rolling_windows": [
+                        10
+                    ],
+                    "use_day_of_week": true
+                }
+            }
+        ]
+    }
+}

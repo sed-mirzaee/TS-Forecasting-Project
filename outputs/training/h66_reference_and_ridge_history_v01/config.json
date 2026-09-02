@@ -1,0 +1,353 @@
+{
+    "run_name": "h66_reference_and_ridge_history_v01",
+    "initial_ratio": 0.789,
+    "horizons": [
+        66
+    ],
+    "materials": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+    ],
+    "models": {
+        "naive": [
+            {
+                "name": "naive",
+                "materials": "all",
+                "params": {}
+            }
+        ],
+        "moving_average": [
+            {
+                "name": "moving_average",
+                "materials": "all",
+                "params": {}
+            }
+        ],
+        "arima/sarima": [
+            {
+                "name": "sarima_112_100_5",
+                "materials": [
+                    "1"
+                ],
+                "params": {
+                    "order": [
+                        1,
+                        1,
+                        2
+                    ],
+                    "seasonal_order": [
+                        1,
+                        0,
+                        0,
+                        5
+                    ]
+                }
+            },
+            {
+                "name": "arima_111",
+                "materials": [
+                    "2",
+                    "3",
+                    "8"
+                ],
+                "params": {
+                    "order": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "seasonal_order": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "arima_011",
+                "materials": [
+                    "4",
+                    "6"
+                ],
+                "params": {
+                    "order": [
+                        0,
+                        1,
+                        1
+                    ],
+                    "seasonal_order": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "arima_102",
+                "materials": [
+                    "5"
+                ],
+                "params": {
+                    "order": [
+                        1,
+                        0,
+                        2
+                    ],
+                    "seasonal_order": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "sarima_011_100_5",
+                "materials": [
+                    "7"
+                ],
+                "params": {
+                    "order": [
+                        0,
+                        1,
+                        1
+                    ],
+                    "seasonal_order": [
+                        1,
+                        0,
+                        0,
+                        5
+                    ]
+                }
+            },
+            {
+                "name": "arima_013",
+                "materials": [
+                    "9"
+                ],
+                "params": {
+                    "order": [
+                        0,
+                        1,
+                        3
+                    ],
+                    "seasonal_order": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "sarima_012_002_5",
+                "materials": [
+                    "10"
+                ],
+                "params": {
+                    "order": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "seasonal_order": [
+                        0,
+                        0,
+                        2,
+                        5
+                    ]
+                }
+            },
+            {
+                "name": "sarima_112_100_5",
+                "materials": [
+                    "11"
+                ],
+                "params": {
+                    "order": [
+                        1,
+                        1,
+                        2
+                    ],
+                    "seasonal_order": [
+                        1,
+                        0,
+                        0,
+                        5
+                    ]
+                }
+            },
+            {
+                "name": "arima_400",
+                "materials": [
+                    "12"
+                ],
+                "params": {
+                    "order": [
+                        4,
+                        0,
+                        0
+                    ],
+                    "seasonal_order": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "sarima_113_002_5",
+                "materials": [
+                    "13"
+                ],
+                "params": {
+                    "order": [
+                        1,
+                        1,
+                        3
+                    ],
+                    "seasonal_order": [
+                        0,
+                        0,
+                        2,
+                        5
+                    ]
+                }
+            }
+        ],
+        "ridge": [
+            {
+                "name": "ridge_h66_lags_1_5_10_22_66_alpha_0.001",
+                "materials": "all",
+                "params": {
+                    "lags": [
+                        1,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [],
+                    "alpha": 0.001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_lags_1_2_3_4_5_10_22_66_alpha_0.001",
+                "materials": "all",
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [],
+                    "alpha": 0.001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_lags_1_2_3_4_5_10_22_66_roll10_alpha_0.001",
+                "materials": "all",
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        10
+                    ],
+                    "alpha": 0.001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_lags_1_2_3_4_5_10_22_66_roll22_alpha_0.001",
+                "materials": "all",
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_lags_1_2_3_4_5_10_22_66_roll66_alpha_0.001",
+                "materials": "all",
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            }
+        ]
+    }
+}

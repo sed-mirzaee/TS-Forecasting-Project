@@ -1,0 +1,30 @@
+{
+    "run_name": "baselines_v01",
+    "models": {
+        "naive": {},
+        "moving_average": {}
+    },
+    "horizons": [
+        10,
+        22,
+        66,
+        132
+    ],
+    "materials": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+    ],
+    "cv_method": "expanding",
+    "initial_ratio": 0.789
+}

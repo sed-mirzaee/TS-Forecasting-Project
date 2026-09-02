@@ -1,0 +1,1058 @@
+{
+    "run_name": "h66_ridge_calendar_ablation_all_materials_v03",
+    "initial_ratio": 0.789,
+    "horizons": [
+        66
+    ],
+    "materials": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+    ],
+    "models": {
+        "ridge": [
+            {
+                "name": "ridge_h66_m1_roll22_alpha_0.0001_dow",
+                "materials": [
+                    "1"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m1_roll22_alpha_0.0001_holiday",
+                "materials": [
+                    "1"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m1_roll22_alpha_0.0001_schoolholiday",
+                "materials": [
+                    "1"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m2_roll22_alpha_0.0001_dow",
+                "materials": [
+                    "2"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m2_roll22_alpha_0.0001_holiday",
+                "materials": [
+                    "2"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m2_roll22_alpha_0.0001_schoolholiday",
+                "materials": [
+                    "2"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m3_roll22_alpha_0.01_dow",
+                "materials": [
+                    "3"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.01,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m3_roll22_alpha_0.01_holiday",
+                "materials": [
+                    "3"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m3_roll22_alpha_0.01_schoolholiday",
+                "materials": [
+                    "3"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m4_roll66_alpha_0.01_dow",
+                "materials": [
+                    "4"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.01,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m4_roll66_alpha_0.01_holiday",
+                "materials": [
+                    "4"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m4_roll66_alpha_0.01_schoolholiday",
+                "materials": [
+                    "4"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m5_roll22_alpha_0.0001_dow",
+                "materials": [
+                    "5"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m5_roll22_alpha_0.0001_holiday",
+                "materials": [
+                    "5"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m5_roll22_alpha_0.0001_schoolholiday",
+                "materials": [
+                    "5"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m6_roll66_alpha_0.0001_dow",
+                "materials": [
+                    "6"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m6_roll66_alpha_0.0001_holiday",
+                "materials": [
+                    "6"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m6_roll66_alpha_0.0001_schoolholiday",
+                "materials": [
+                    "6"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m7_roll66_alpha_0.0001_dow",
+                "materials": [
+                    "7"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m7_roll66_alpha_0.0001_holiday",
+                "materials": [
+                    "7"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m7_roll66_alpha_0.0001_schoolholiday",
+                "materials": [
+                    "7"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m8_roll66_alpha_0.0001_dow",
+                "materials": [
+                    "8"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m8_roll66_alpha_0.0001_holiday",
+                "materials": [
+                    "8"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m8_roll66_alpha_0.0001_schoolholiday",
+                "materials": [
+                    "8"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m9_no_roll_alpha_0.0001_dow",
+                "materials": [
+                    "9"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [],
+                    "alpha": 0.0001,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m9_no_roll_alpha_0.0001_holiday",
+                "materials": [
+                    "9"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m9_no_roll_alpha_0.0001_schoolholiday",
+                "materials": [
+                    "9"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m10_roll10_alpha_0.01_dow",
+                "materials": [
+                    "10"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        10
+                    ],
+                    "alpha": 0.01,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m10_roll10_alpha_0.01_holiday",
+                "materials": [
+                    "10"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        10
+                    ],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m10_roll10_alpha_0.01_schoolholiday",
+                "materials": [
+                    "10"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        10
+                    ],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m11_roll66_alpha_0.001_dow",
+                "materials": [
+                    "11"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.001,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m11_roll66_alpha_0.001_holiday",
+                "materials": [
+                    "11"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.001,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m11_roll66_alpha_0.001_schoolholiday",
+                "materials": [
+                    "11"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        66
+                    ],
+                    "alpha": 0.001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m12_roll22_alpha_0.0001_dow",
+                "materials": [
+                    "12"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m12_roll22_alpha_0.0001_holiday",
+                "materials": [
+                    "12"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m12_roll22_alpha_0.0001_schoolholiday",
+                "materials": [
+                    "12"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [
+                        22
+                    ],
+                    "alpha": 0.0001,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m13_no_roll_alpha_0.01_dow",
+                "materials": [
+                    "13"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [],
+                    "alpha": 0.01,
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m13_no_roll_alpha_0.01_holiday",
+                "materials": [
+                    "13"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": true,
+                    "use_school_holiday": false,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            },
+            {
+                "name": "ridge_h66_m13_no_roll_alpha_0.01_schoolholiday",
+                "materials": [
+                    "13"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        5,
+                        10,
+                        22,
+                        66
+                    ],
+                    "rolling_windows": [],
+                    "alpha": 0.01,
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "input_lags": [],
+                    "input_rolling": []
+                }
+            }
+        ]
+    }
+}

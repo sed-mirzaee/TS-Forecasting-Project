@@ -1,0 +1,163 @@
+{
+    "run_name": "h10_ridge_school_holiday_v13",
+    "initial_ratio": 0.789,
+    "horizons": [
+        10
+    ],
+    "materials": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+    ],
+    "models": {
+        "naive": [
+            {
+                "name": "naive",
+                "materials": "all",
+                "params": {}
+            }
+        ],
+        "moving_average": [
+            {
+                "name": "moving_average",
+                "materials": "all",
+                "params": {}
+            }
+        ],
+        "ridge": [
+            {
+                "name": "ridge_base_schoolholiday_alpha_0.0001",
+                "materials": [
+                    "1",
+                    "4",
+                    "5",
+                    "6",
+                    "8",
+                    "9",
+                    "11",
+                    "12"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10
+                    ],
+                    "rolling_windows": [
+                        10
+                    ],
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "alpha": 0.0001
+                }
+            },
+            {
+                "name": "ridge_base_schoolholiday_alpha_0.01",
+                "materials": [
+                    "3"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10
+                    ],
+                    "rolling_windows": [
+                        10
+                    ],
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "alpha": 0.01
+                }
+            },
+            {
+                "name": "ridge_base_schoolholiday_alpha_0.001",
+                "materials": [
+                    "7"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10
+                    ],
+                    "rolling_windows": [
+                        10
+                    ],
+                    "use_day_of_week": false,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "alpha": 0.001
+                }
+            },
+            {
+                "name": "ridge_dow_schoolholiday_alpha_0.0001",
+                "materials": [
+                    "2",
+                    "10"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10
+                    ],
+                    "rolling_windows": [
+                        10
+                    ],
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "alpha": 0.0001
+                }
+            },
+            {
+                "name": "ridge_dow_schoolholiday_alpha_1",
+                "materials": [
+                    "13"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10
+                    ],
+                    "rolling_windows": [
+                        10
+                    ],
+                    "use_day_of_week": true,
+                    "use_holiday": false,
+                    "use_school_holiday": true,
+                    "alpha": 1.0
+                }
+            }
+        ]
+    }
+}

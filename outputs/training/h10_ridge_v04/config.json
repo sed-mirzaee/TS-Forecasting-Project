@@ -1,0 +1,245 @@
+{
+    "run_name": "h10_ridge_v04",
+    "initial_ratio": 0.789,
+    "horizons": [
+        10
+    ],
+    "materials": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+    ],
+    "models": {
+        "naive": [
+            {
+                "name": "naive",
+                "materials": "all",
+                "params": {}
+            }
+        ],
+        "moving_average": [
+            {
+                "name": "moving_average",
+                "materials": "all",
+                "params": {}
+            }
+        ],
+        "arima/sarima": [
+            {
+                "name": "sarima_112_100_5",
+                "materials": [
+                    "1"
+                ],
+                "params": {
+                    "order": [
+                        1,
+                        1,
+                        2
+                    ],
+                    "seasonal_order": [
+                        1,
+                        0,
+                        0,
+                        5
+                    ]
+                }
+            },
+            {
+                "name": "arima_111",
+                "materials": [
+                    "2",
+                    "3"
+                ],
+                "params": {
+                    "order": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "seasonal_order": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "arima_011",
+                "materials": [
+                    "4",
+                    "6",
+                    "7",
+                    "8"
+                ],
+                "params": {
+                    "order": [
+                        0,
+                        1,
+                        1
+                    ],
+                    "seasonal_order": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "arima_102",
+                "materials": [
+                    "5"
+                ],
+                "params": {
+                    "order": [
+                        1,
+                        0,
+                        2
+                    ],
+                    "seasonal_order": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "arima_211",
+                "materials": [
+                    "9"
+                ],
+                "params": {
+                    "order": [
+                        2,
+                        1,
+                        1
+                    ],
+                    "seasonal_order": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "arima_012",
+                "materials": [
+                    "10"
+                ],
+                "params": {
+                    "order": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "seasonal_order": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "sarima_112_001_5",
+                "materials": [
+                    "11"
+                ],
+                "params": {
+                    "order": [
+                        1,
+                        1,
+                        2
+                    ],
+                    "seasonal_order": [
+                        0,
+                        0,
+                        1,
+                        5
+                    ]
+                }
+            },
+            {
+                "name": "arima_500",
+                "materials": [
+                    "12"
+                ],
+                "params": {
+                    "order": [
+                        5,
+                        0,
+                        0
+                    ],
+                    "seasonal_order": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "sarima_113_002_5",
+                "materials": [
+                    "13"
+                ],
+                "params": {
+                    "order": [
+                        1,
+                        1,
+                        3
+                    ],
+                    "seasonal_order": [
+                        0,
+                        0,
+                        2,
+                        5
+                    ]
+                }
+            }
+        ],
+        "ridge": [
+            {
+                "name": "ridge_lags_1_5_10_alpha_1",
+                "materials": [
+                    "1"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        5,
+                        10
+                    ],
+                    "alpha": 1.0
+                }
+            },
+            {
+                "name": "ridge_lags_1_5_10_alpha_1",
+                "materials": [
+                    "2"
+                ],
+                "params": {
+                    "lags": [
+                        1,
+                        5,
+                        10
+                    ],
+                    "alpha": 1.0
+                }
+            }
+        ]
+    }
+}

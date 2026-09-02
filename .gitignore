@@ -46,7 +46,5 @@ data/processed/prepared_training.csv
 forecasts/
 
 # Folders
-notebooks/
-outputs/
-tests/
+outputs/forecasts/
 
