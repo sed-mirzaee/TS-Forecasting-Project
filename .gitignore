@@ -48,3 +48,7 @@ forecasts/
 # Folders
 outputs/forecasts/
 
+/notebooks/EDA_Check_Data__.ipynb
+/notebooks/Material4_Analysis__.ipynb
+/notebooks/Material4_Analysis_Interpolation__.ipynb
+/notebooks/Material4_Difference__.ipynb
