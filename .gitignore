@@ -29,9 +29,21 @@ Thumbs.db
 # Data
 data/raw/ballengewichte_raw_studenten.csv
 data/raw/ballengewichte_studenten.csv
+data/raw/ballengewichte_studenten_2025.csv
+data/raw/ballengewichte_studenten_all.csv
 data/raw/eingangsbandwaage_raw_studenten.csv
 data/raw/eingangsbandwaage_studenten.csv
+data/raw/eingangsbandwaage_studenten_2025.csv
+data/raw/eingangsbandwaage_studenten_all.csv
 data/processed/clean_dataset.csv
+data/processed/prepared_forecasting.csv
+data/processed/prepared_training.csv
+
+# training results
+*forecasts.csv*
+
+# forecasting
+forecasts/
 
 # Folders
 notebooks/
