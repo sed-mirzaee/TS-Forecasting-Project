@@ -52,3 +52,5 @@ outputs/forecasts/
 /notebooks/Material4_Analysis__.ipynb
 /notebooks/Material4_Analysis_Interpolation__.ipynb
 /notebooks/Material4_Difference__.ipynb
+/data/raw/eingangsbandwaage_rueckhalt.csv
+/data/raw/ballengewichte_rueckhalt.csv
