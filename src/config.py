@@ -28,7 +28,7 @@ class Forecast_data_mode(Enum):
     FULL = "full"
     APPEND = "append"
 
-FORECAST_DATA_MODE = Forecast_data_mode.FULL
+FORECAST_DATA_MODE = Forecast_data_mode.APPEND
 # "FULL"   → use forecast raw files as complete datasets
 # "APPEND" → append forecast raw files to historical raw data
 
@@ -46,8 +46,8 @@ PUBLIC_HOLIDAYS_FILE = PROCESSED_DATA_DIR / "public_holidays.csv"
 FORECAST_FULL_INPUT_FILE = RAW_DATA_DIR / "eingangsbandwaage_studenten_all.csv"
 FORECAST_FULL_MATERIAL_FILE = RAW_DATA_DIR / "ballengewichte_studenten_all.csv"
 
-FORECAST_APPEND_INPUT_FILE = RAW_DATA_DIR / "eingangsbandwaage_studenten_2025.csv"
-FORECAST_APPEND_MATERIAL_FILE = RAW_DATA_DIR / "ballengewichte_studenten_2025.csv"
+FORECAST_APPEND_INPUT_FILE = RAW_DATA_DIR / "eingangsbandwaage_rueckhalt.csv"
+FORECAST_APPEND_MATERIAL_FILE = RAW_DATA_DIR / "ballengewichte_rueckhalt.csv"
 
 TRAINING_DATA_FILE = PROCESSED_DATA_DIR / "prepared_training.csv"
 FORECASTING_DATA_FILE = PROCESSED_DATA_DIR / "prepared_forecasting.csv"

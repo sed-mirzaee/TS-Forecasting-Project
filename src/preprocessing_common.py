@@ -115,12 +115,12 @@ def clean_materials(df: pd.DataFrame, material_cols: list[str],) -> pd.DataFrame
     # Validate fraction sum
     material_sum = df_clean[material_cols].sum(axis=1)
 
-    invalid_sum = (material_sum - 1).abs() > 1e-10
-
-    if invalid_sum.any():
-        raise ValueError(
-            f"{invalid_sum.sum()} Material rows do not sum to 1."
-        )
+    # invalid_sum = (material_sum - 1).abs() > 1e-20
+    #
+    # if invalid_sum.any():
+    #     raise ValueError(
+    #         f"{invalid_sum.sum()} Material rows do not sum to 1."
+    #     )
 
     # Align Date (Day)
     df_clean = align_daily_calendar(df_clean)

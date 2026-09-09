@@ -29,6 +29,9 @@ def load_forecast_raw_data( mode: str, input_path: Path, material_path: Path, in
     df_input_new = pd.read_csv(input_forecast)
     df_material_new = pd.read_csv(material_forecast)
 
+    # Remove unexpected Material 14 column
+    df_material_new = df_material_new.drop(columns=[col for col in df_material_new.columns if str(col) == "14"])
+
     if mode == "FULL":
         return df_input_new, df_material_new
 
